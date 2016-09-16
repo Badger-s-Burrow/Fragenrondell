@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/category_tape">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_category_label" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_category_label"
+        android:layout_alignRight="@+id/iv_category_label"
+        android:layout_alignTop="@+id/iv_category_label"
+        android:layout_alignBottom="@+id/iv_category_label"
+        android:background="@color/tape" />
+
+</RelativeLayout>

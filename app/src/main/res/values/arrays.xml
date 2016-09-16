@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+        name="questions_category"
+        translatable = "false">
+        <item>@color/black</item>
+    </string-array>
+
+
+    <string-array
+        name="background_tiles"
+        translatable = "false">
+        <item>@drawable/background01</item>
+        <item>@drawable/background02</item>
+        <item>@drawable/background03</item>
+        <item>@drawable/background04</item>
+        <item>@drawable/background05</item>
+        <item>@drawable/background06</item>
+        <item>@drawable/background07</item>
+        <item>@drawable/background08</item>
+        <item>@drawable/background09</item>
+        <item>@drawable/background10</item>
+        <item>@drawable/background11</item>
+        <item>@drawable/background12</item>
+        <item>@drawable/background13</item>
+        <item>@drawable/background14</item>
+    </string-array>
+
+    <string-array
+        name="card_designs"
+        translatable = "false">
+        <item>@drawable/card_design01</item>
+        <item>@drawable/card_design02</item>
+        <item>@drawable/card_design03</item>
+        <item>@drawable/card_design04</item>
+        <item>@drawable/card_design05</item>
+        <item>@drawable/card_design06</item>
+        <item>@drawable/card_design07</item>
+        <item>@drawable/card_design08</item>
+        <item>@drawable/card_design09</item>
+        <item>@drawable/card_design10</item>
+        <item>@drawable/card_design11</item>
+        <item>@drawable/card_design12</item>
+        <item>@drawable/card_design13</item>
+        <item>@drawable/card_design14</item>
+        <item>@drawable/card_design15</item>
+        <item>@drawable/card_design16</item>
+        <item>@drawable/card_design17</item>
+        <item>@drawable/card_design18</item>
+        <item>@drawable/card_design19</item>
+        <item>@drawable/card_design20</item>
+    </string-array>
+
+</resources>

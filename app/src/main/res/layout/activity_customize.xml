@@ -1,0 +1,116 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaaaaa">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/customize_wallpaper"/>
+
+
+    <com.littleones.fragenrondell.ScalingRelativeLayout
+        android:id="@+id/rl_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/customize_activity_window"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/rv_backgrounds"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="100dp"
+            android:elevation="8dp"/>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:id="@+id/rl_canvas"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:rotationX="5"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/iv_canvas"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/background01"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_centerHorizontal="true">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:id="@+id/iv_card"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/card_design01"
+                android:background="@color/white"
+                android:padding="2dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_chevron_left_black_24dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_card"
+                android:id="@+id/iv_left"
+                android:clickable="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_right"
+                android:src="@drawable/ic_chevron_left_black_24dp"
+                android:rotation="180"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_card"
+                android:clickable="true"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/customize_activity_foreground"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_back"
+            android:clickable="true"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginBottom="@dimen/vertical_margin"
+            android:src="@drawable/ic_arrow_back_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </com.littleones.fragenrondell.ScalingRelativeLayout>
+
+
+</FrameLayout>

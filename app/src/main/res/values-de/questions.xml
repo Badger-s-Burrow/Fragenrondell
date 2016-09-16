@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string-array
+        name="questions_general">
+        <item>"In welchem Abstand sollte eine Lampe über dem Esstisch hängen?"</item>
+        <item>"Wie sauber war deine Schultoilette?"</item>
+        <item>"Warst du mal in eine/n Lehrer/in verliebt?"</item>
+        <item>"Was mochtest du an der Schule?"</item>
+        <item>"Was hast du an der Schule überhaupt nicht gemocht?"</item>
+        <item>"Was hattest du in der Schule zu essen mit?"</item>
+        <item>"Was ist dein Lieblingsobst?"</item>
+        <item>"Wo würdest du jetzt am liebsten in Urlaub fahren?"</item>
+        <item>"Wie war die erste Party auf der du warst?"</item>
+        <item>"Welcher war der erste Film, den du im Kino gesehen hast?"</item>
+        <item>"Wie bist du mit deinem/r ersten Freund/in zusammengekommen?"</item>
+        <item>"Welches war der schönste Urlaub, den du hattest?"</item>
+        <item>"Was magst du an deinem/r besten Freund/in am liebsten?"</item>
+        <item>"Wie alt möchtest du werden?"</item>
+        <item>"Wer ist die lustigste Person, die du je kennengelernt hast?"</item>
+
+    </string-array>
+
+</resources>

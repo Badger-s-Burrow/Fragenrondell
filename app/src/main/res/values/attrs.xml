@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <dimen name="elevation">8dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="double_screen_width">1280dp</dimen>
+
+    <dimen name="category_box_top_width">300dp</dimen>
+    <dimen name="category_box_top_height">255dp</dimen>
+    <dimen name="category_box_lid_width">180dp</dimen>
+    <dimen name="category_box_lid_height">260dp</dimen>
+    <dimen name="category_box_bottom_width">353dp</dimen>
+    <dimen name="category_box_bottom_height">255dp</dimen>
+
+    <dimen name="card_width">350dp</dimen>
+    <dimen name="card_height">250dp</dimen>
+    <integer name="card_rot_oop">20</integer>
+    <integer name="card_rot_inp_start">22</integer>
+    <integer name="card_rot_inp_continue">-22</integer>
+    <dimen name="card_rot_trans_start">-25dp</dimen>
+    <dimen name="card_rot_trans_continue">25dp</dimen>
+
+    <dimen name="main_thumb_horizontal_margin">231dp</dimen>
+    <dimen name="main_thumb_vertical_margin">71dp</dimen>
+    <dimen name="main_cards_horizontal_margin">250dp</dimen>
+    <dimen name="main_cards_vertical_margin">67dp</dimen>
+    <dimen name="main_eyes_horizontal_margin">59dp</dimen>
+    <dimen name="main_eyes_vertical_margin">252dp</dimen>
+
+
+    <declare-styleable name="StackCardAdapterView">
+        <attr name="SwipeFlingStyle" format="reference"/>
+        <attr name="rotation_degrees" format="float"/>
+        <attr name="min_adapter_stack" format="integer"/>
+        <attr name="max_visible" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="SelectionWheel">
+        <attr name="autoCenterPointerInSlice" format="boolean"/>
+        <attr name="highlightStrength" format="float"/>
+        <attr name="wheelRotation" format="integer"/>
+        <attr name="pointerRadius" format="dimension"/>
+    </declare-styleable>
+</resources>

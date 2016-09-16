@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_card">
+
+<RelativeLayout
+    android:layout_width="@dimen/card_width"
+    android:layout_height="@dimen/card_height"
+    android:id="@+id/rl_card_inside"
+    android:background="@drawable/card_design03"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tv_question"
+        android:minLines="1"
+        android:maxLines="4"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+
+
+
+</RelativeLayout>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:background="@drawable/card_struc_tile01"
+        android:tileMode="repeat"
+        android:gravity="clip_horizontal"/>
+</RelativeLayout>

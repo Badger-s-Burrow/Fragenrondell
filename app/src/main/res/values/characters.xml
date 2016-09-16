@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+        name="character_design"
+        translatable = "false">
+        <item>@drawable/character_01</item>
+        <item>@drawable/character_02</item>
+        <item>@drawable/character_03</item>
+        <item>@drawable/character_04</item>
+        <item>@drawable/character_05</item>
+        <item>@drawable/character_front</item>
+        <item>@drawable/character_front</item>
+    </string-array>
+
+
+    <array name="character_color"
+        translatable = "false">
+        <item>@color/category_general_secondary</item>
+        <item>@color/category_intimacy_secondary</item>
+        <item>@color/category_sport_secondary</item>
+        <item>@color/category_friendship_secondary</item>
+        <item>@color/category_job_secondary</item>
+        <item>@color/category_relationship_secondary</item>
+        <item>@color/category_forkids_secondary</item>
+    </array>
+
+
+
+</resources>

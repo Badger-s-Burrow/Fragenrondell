@@ -1,0 +1,118 @@
+[
+    {
+        "name" : "card_design??.*",  // unqualified part of the SVG file name (JAVA regexp)
+        "stretch" : { // the stretchable area configuration
+            "x" : [ // segments of the top edge of the NinePatch
+                [44, 116]
+            ],
+            "y" : [ // segments of the left edge of the NinePatch
+                [44, 76]
+            ]
+        },
+        "content" : { // the padding box configuration
+            "x" : [ // segments of the bottom edge of the NinePatch
+                [44, 116]
+            ],
+            "y" : [ // segments of the right edge of the NinePatch
+                [44, 76]
+            ]
+        }
+    },
+    {
+        "name" : "category_box??.*",  // unqualified part of the SVG file name (JAVA regexp)
+        "stretch" : { // the stretchable area configuration
+            "x" : [ // segments of the top edge of the NinePatch
+
+                [28, 100]
+            ],
+            "y" : [ // segments of the left edge of the NinePatch
+                [28, 100]
+            ]
+        },
+        "content" : { // the padding box configuration
+            "x" : [ // segments of the bottom edge of the NinePatch
+                [28, 100]
+            ],
+            "y" : [ // segments of the right edge of the NinePatch
+                [28, 100]
+            ]
+        }
+    },
+    {
+        "name" : "category_tape.*",  // unqualified part of the SVG file name (JAVA regexp)
+        "stretch" : { // the stretchable area configuration
+            "x" : [ // segments of the top edge of the NinePatch
+                [60, 80]
+            ],
+            "y" : [ // segments of the left edge of the NinePatch
+                [0, 100]
+            ]
+        },
+        "content" : { // the padding box configuration
+            "x" : [ // segments of the bottom edge of the NinePatch
+                [45, 95]
+            ],
+            "y" : [ // segments of the right edge of the NinePatch
+                [10,90]
+            ]
+        }
+    },
+    {
+        "name" : "frame_info.*",  // unqualified part of the SVG file name (JAVA regexp)
+        "stretch" : { // the stretchable area configuration
+            "x" : [ // segments of the top edge of the NinePatch
+                [10, 40]
+            ],
+            "y" : [ // segments of the left edge of the NinePatch
+                [6, 24]
+            ]
+        },
+        "content" : { // the padding box configuration
+            "x" : [ // segments of the bottom edge of the NinePatch
+                [20,30]
+            ],
+            "y" : [ // segments of the right edge of the NinePatch
+                [8,22]
+            ]
+        }
+    },
+    {
+        "name" : "backdrop_casual.*",  // unqualified part of the SVG file name (JAVA regexp)
+        "stretch" : { // the stretchable area configuration
+            "x" : [ // segments of the top edge of the NinePatch
+                [30, 55]
+            ],
+            "y" : [ // segments of the left edge of the NinePatch
+                [0, 15]
+            ]
+        },
+        "content" : { // the padding box configuration
+            "x" : [ // segments of the bottom edge of the NinePatch
+                [30,50]
+            ],
+            "y" : [ // segments of the right edge of the NinePatch
+                [0,15]
+            ]
+        }
+    },
+    {
+        "name" : "backdrop_competitive.*",  // unqualified part of the SVG file name (JAVA regexp)
+        "stretch" : { // the stretchable area configuration
+            "x" : [ // segments of the top edge of the NinePatch
+                [30, 55]
+            ],
+            "y" : [ // segments of the left edge of the NinePatch
+                [0, 15]
+            ]
+        },
+        "content" : { // the padding box configuration
+            "x" : [ // segments of the bottom edge of the NinePatch
+                [30,50]
+            ],
+            "y" : [ // segments of the right edge of the NinePatch
+                [0,15]
+            ]
+        }
+    }
+
+]

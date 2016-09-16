@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="background_grey">#FF666666</color>
+    <color name="background_lightgrey">#FFEEEEEE</color>
+    <color name="menu_card_grey">#FF666666</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="tape">#30c6c6c6</color>
+
+
+    <!-- category colors -->
+    <color name="category_general_primary">#FFfcf792</color>
+    <color name="category_intimacy_primary">#FFe6e6fa</color>
+    <color name="category_sport_primary">#FFdae9d7</color>
+    <color name="category_friendship_primary">#FFc2d4d8</color>
+    <color name="category_job_primary">#FFb0abc3</color>
+    <color name="category_relationship_primary">#FFfac8bf</color>
+    <color name="category_forkids_primary">#FFece3ce</color>
+
+    <color name="category_general_secondary">#FF57c9c8</color>
+    <color name="category_intimacy_secondary">#FFb6b6f0</color>
+    <color name="category_sport_secondary">#FFb8d5b3</color>
+    <color name="category_friendship_secondary">#FF9fbac1</color>
+    <color name="category_job_secondary">#FF938dad</color>
+    <color name="category_relationship_secondary">#FF938dad</color>
+    <color name="category_forkids_secondary">#FFd6c396</color>
+
+
+    <color name="seafoam">#ffc6f9e5</color>
+    <color name="chartreuse">#ffb6e9b5</color>
+    <color name="emerald">#ffa6d9b5</color>
+    <color name="bluegrass">#ff96c9b5</color>
+    <color name="turquoise">#ff86b9b5</color>
+    <color name="slate">#ff76a9b5</color>
+
+</resources>

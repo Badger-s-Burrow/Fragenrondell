@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+
+    <objectAnimator
+        android:propertyName="rotationY"
+        android:valueFrom="90"
+        android:valueTo="@integer/card_rot_oop"
+        android:duration="200"
+        android:startOffset="180"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:valueType="floatType"/>
+
+    <objectAnimator
+        android:propertyName="rotation"
+        android:valueFrom="-20"
+        android:valueTo="0"
+        android:duration="200"
+        android:startOffset="26"
+        android:transformPivotX="400dp"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:valueType="floatType"/>
+
+    <objectAnimator
+        android:duration="135"
+        android:startOffset="90"
+        android:propertyName="scaleX"
+        android:valueFrom="0.4"
+        android:valueTo="1"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:valueType="floatType"/>
+
+    <objectAnimator
+        android:duration="135"
+        android:startOffset="90"
+        android:propertyName="scaleY"
+        android:valueFrom="0.4"
+        android:valueTo="1"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:valueType="floatType"/>
+
+    <objectAnimator
+        android:duration="220"
+        android:startOffset="26"
+        android:propertyName="translationX"
+        android:valueFrom="550"
+        android:valueTo="0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:valueType="floatType"/>
+
+    <objectAnimator
+        android:duration="220"
+        android:startOffset="26"
+        android:propertyName="translationY"
+        android:valueFrom="130"
+        android:valueTo="0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:valueType="floatType"/>
+
+</set>

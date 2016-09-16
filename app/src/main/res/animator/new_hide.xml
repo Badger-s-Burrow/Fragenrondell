@@ -1,0 +1,17 @@
+<objectAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:startOffset="0"
+    android:duration="200"
+    android:interpolator="@android:anim/overshoot_interpolator">
+    <propertyValuesHolder
+        android:propertyName="rotation"
+        android:valueFrom="@integer/card_rot_inp_start"
+        android:valueTo="0"
+        android:valueType="floatType" />
+    <propertyValuesHolder
+        android:propertyName="translationY"
+        android:valueFrom="@dimen/card_rot_trans_start"
+        android:valueTo="0."
+        android:valueType="floatType"/>
+</objectAnimator>
+

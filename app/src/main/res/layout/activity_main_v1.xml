@@ -1,0 +1,275 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaaaaa"
+    tools:context=".Activity_Main">
+
+
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <com.littleones.fragenrondell.FullwidthRelativeLayout
+        android:id="@+id/rl_fullwidth"
+        android:layout_width="@dimen/double_screen_width"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundGravity="fill"
+            android:foreground="@drawable/background01"/>
+
+    <com.littleones.fragenrondell.ScalingRelativeLayout
+        android:id="@+id/rl_part_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/frame_01"
+            android:id="@+id/frame_01"
+            android:clickable="true"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_below="@+id/frame_03"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame01_anim_highlight"
+            android:id="@+id/iv_frame01_highlight"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_below="@+id/frame_03"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/frame_02"
+            android:id="@+id/frame_02"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_toRightOf="@+id/frame_01"
+            android:layout_below="@+id/frame_03"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/frame_03"
+            android:id="@+id/frame_03"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/frame_04"
+            android:id="@+id/frame_04"
+            android:clickable="true"
+            android:layout_toRightOf="@+id/frame_02"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/frame_05"
+            android:id="@+id/frame_05"
+            android:layout_toRightOf="@+id/frame_04"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:layout_marginTop="50dp"/>
+
+        </com.littleones.fragenrondell.ScalingRelativeLayout>
+
+        <com.littleones.fragenrondell.ScalingRelativeLayout
+            android:id="@+id/rl_part_modeselect"
+            android:layout_toRightOf="@id/rl_part_main"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/frame_05"
+                android:id="@+id/frame_06"
+                android:layout_marginLeft="@dimen/horizontal_margin"
+                android:layout_marginRight="@dimen/horizontal_margin"
+                android:layout_marginTop="90dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl_casual"
+                android:layout_toRightOf="@+id/frame_06"
+                android:layout_marginLeft="@dimen/horizontal_margin"
+                android:layout_marginRight="@dimen/horizontal_margin"
+                android:background="@drawable/backdrop_casual">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tv_header_casual"
+                    android:text="Casual"
+                    android:textSize="16sp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_header_casual"
+                    android:id="@+id/rl_freeplay"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/vertical_margin"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/frame_08"
+                        android:id="@+id/iv_freeplay"
+                        android:clickable="true"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/frame_info"
+                        android:clickable="true"
+                        android:layout_marginTop="6dp"
+                        android:text="Free play"
+                        android:textSize="12sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl_freeplay"
+                    android:id="@+id/rl_wheelselect"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="@dimen/horizontal_margin"
+                    android:layout_marginTop="@dimen/vertical_margin"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/frame_08"
+                        android:id="@+id/iv_wheelselect"
+                        android:clickable="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/frame_info"
+                        android:clickable="true"
+                        android:layout_marginTop="6dp"
+                        android:text="Wheel of fate"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/horizontal_margin"
+                android:id="@+id/rl_competitive"
+                android:minHeight="100dp"
+                android:layout_toRightOf="@+id/rl_casual"
+
+                android:background="@drawable/backdrop_competitive">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tv_header_competitive"
+                    android:text="Competitive"
+                    android:textSize="16sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_header_competitive"
+                    android:layout_centerHorizontal="true"
+                    android:text="requires multiple devices"
+                    android:textSize="12sp"/>
+                </RelativeLayout>
+
+        </com.littleones.fragenrondell.ScalingRelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_foreground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/rl_part_main"
+            android:layout_alignRight="@id/rl_part_main"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="40dp">
+
+            <ImageView
+                android:id="@+id/iv_gentleman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/gentleman_anim_tomodeselect" />
+
+            <include layout="@layout/card_continue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/iv_gentleman"
+                android:layout_alignBottom="@+id/iv_gentleman"
+                android:layout_marginRight="@dimen/main_cards_horizontal_margin"
+                android:layout_marginBottom="@dimen/main_cards_vertical_margin" />
+
+            <include layout="@layout/card_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/iv_gentleman"
+                android:layout_alignBottom="@+id/iv_gentleman"
+                android:layout_marginRight="@dimen/main_cards_horizontal_margin"
+                android:layout_marginBottom="@dimen/main_cards_vertical_margin"/>
+
+            <ImageView
+                android:id="@+id/iv_gentleman_thumb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/iv_gentleman"
+                android:layout_alignBottom="@+id/iv_gentleman"
+                android:layout_marginRight="@dimen/main_thumb_horizontal_margin"
+                android:layout_marginBottom="@dimen/main_thumb_vertical_margin"
+                android:src="@drawable/main_activity_gentleman_thumb" />
+
+            <ImageView
+                android:id="@+id/iv_gentleman_eyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/iv_gentleman"
+                android:layout_alignBottom="@+id/iv_gentleman"
+                android:layout_marginRight="@dimen/main_eyes_horizontal_margin"
+                android:layout_marginBottom="@dimen/main_eyes_vertical_margin"
+                android:background="@drawable/gentleman_anim_blink" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:src="@drawable/ic_arrow_back_24dp" />
+    </com.littleones.fragenrondell.FullwidthRelativeLayout>
+
+</FrameLayout>

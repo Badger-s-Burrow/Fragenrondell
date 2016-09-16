@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="double_screen_width">2200dp</dimen>
+
+
+    <dimen name="category_box_top_width">300dp</dimen>
+    <dimen name="category_box_top_height">255dp</dimen>
+    <dimen name="category_box_lid_width">180dp</dimen>
+    <dimen name="category_box_lid_height">260dp</dimen>
+    <dimen name="category_box_bottom_width">353dp</dimen>
+    <dimen name="category_box_bottom_height">255dp</dimen>
+
+    <dimen name="card_width">350dp</dimen>
+    <dimen name="card_height">250dp</dimen>
+
+    <dimen name="main_thumb_horizontal_margin">500dp</dimen>
+    <dimen name="main_thumb_vertical_margin">142dp</dimen>
+    <dimen name="main_cards_horizontal_margin">550dp</dimen>
+    <dimen name="main_cards_vertical_margin">130dp</dimen>
+    <dimen name="main_eyes_horizontal_margin">198dp</dimen>
+    <dimen name="main_eyes_vertical_margin">504dp</dimen>
+
+</resources>

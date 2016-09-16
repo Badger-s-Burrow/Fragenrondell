@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="305"
+   height="195"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="menu_card-xhdpi.svg">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="envelope"
+       id="path-effect3881"
+       is_visible="true"
+       yy="true"
+       xx="true"
+       bendpath1="m 0.51393408,631.8761 299.97213592,0"
+       bendpath2="m 300.48607,631.8761 0,199.97209"
+       bendpath3="m 0.51393408,831.84819 299.97213592,0"
+       bendpath4="m 0.51393408,631.8761 0,199.97209" />
+    <inkscape:path-effect
+       effect="envelope"
+       id="path-effect3874"
+       is_visible="true"
+       yy="true"
+       xx="true"
+       bendpath1="M 0.51393408,851.8761 C 100.8201,859.43719 200.35703,862.77417 301.91464,870.44753"
+       bendpath2="m 298.92175,873.3758 c -5.48736,41.49677 -2.90751,111.36598 -0.19285,154.2297"
+       bendpath3="M 0.51393408,1051.8482 C 99.484576,1047.0023 199.2883,1036.7984 300.48607,1034.7053"
+       bendpath4="m 0.51393408,851.8761 c -8.68767528,66.65737 -6.48208318,133.31473 0,199.9721"
+       bendpath2-nodetypes="cc"
+       bendpath1-nodetypes="cc"
+       bendpath3-nodetypes="cc"
+       bendpath4-nodetypes="cc" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="161.69964"
+     inkscape:cy="64.42995"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-857.36218)">
+    <g
+       id="g3876"
+       inkscape:path-effect="#path-effect3881">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.5;stroke-opacity:1"
+         id="rect3782"
+         width="299.97214"
+         height="199.97209"
+         x="0.51393408"
+         y="631.8761"
+         rx="22.220156"
+         ry="22.21912"
+         d="m 15.146752,631.24422 c 168.281328,0 0,0 168.281328,0 8.10676,0 14.63315,9.90973 14.63315,22.21912 0,0 0,155.53385 0,155.53385 0,12.3094 -6.52639,22.21912 -14.63315,22.21912 0,0 -168.281328,0 -168.281328,0 -8.1067685,0 -14.63315637,-9.90972 -14.63315637,-22.21912 0,-51.84461 0,-103.68923 0,-155.53385 0,-12.30939 6.52638787,-22.21912 14.63315637,-22.21912 z" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:eufm10;-inkscape-font-specification:eufm10;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="44.578125"
+         y="744.78406"
+         id="text3784"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3786"
+           x="44.578125"
+           y="744.78406"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64px;font-family:Gardiner;-inkscape-font-specification:'Gardiner Bold';fill:#4d4d4d">Freies Spiel</tspan></text>
+    </g>
+    <rect
+       style="fill:#fffcf7;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.5;stroke-opacity:1"
+       id="rect3782-9"
+       width="304"
+       height="194"
+       x="0.5"
+       y="857.86218"
+       rx="22.518515"
+       ry="21.555553"
+       d="m 22.733576,631.24486 c 85.177274,0 170.354554,0 255.531824,0 12.30997,0 22.22016,9.90972 22.22016,22.21912 0,51.84461 0,103.68923 0,155.53385 0,12.30939 -9.91019,22.21912 -22.22016,22.21912 -85.17727,0 -170.35455,0 -255.531824,0 -12.309966,0 -22.22015534,-9.90973 -22.22015534,-22.21912 0,-51.84462 0,-103.68924 0,-155.53385 0,-12.3094 9.91018934,-22.21912 22.22015534,-22.21912 z" />
+  </g>
+</svg>

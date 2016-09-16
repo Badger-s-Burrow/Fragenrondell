@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+        name="category_names"
+        translatable = "false">
+        <item>"questions_general"</item>
+        <item>"questions_initimacy"</item>
+        <item>"questions_sport"</item>
+        <item>"questions_friendship"</item>
+        <item>"questions_job"</item>
+        <item>"questions_relationship"</item>
+        <item>"questions_forkids"</item>
+    </string-array>
+
+    <string-array
+        name="category_labels">
+        <item>"General"</item>
+        <item>"Intimicy"</item>
+        <item>"Sport"</item>
+        <item>"Friendship"</item>
+        <item>"Job"</item>
+        <item>"Relationship"</item>
+        <item>"For kids"</item>
+    </string-array>
+
+    <string-array
+        name="category_designs"
+        translatable = "false">
+        <item>@drawable/category_design_general</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>@drawable/category_design_general</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array
+        name="category_label_images">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array
+        name="category_box"
+        translatable = "false">
+        <item>@drawable/category_box01</item>
+        <item>@drawable/category_box02</item>
+        <item>@drawable/category_box03</item>
+        <item>@drawable/category_box04</item>
+        <item>@drawable/category_box05</item>
+        <item>@drawable/category_box06</item>
+        <item>@drawable/category_box07</item>
+    </string-array>
+
+    <array name="category_primary_color"
+        translatable = "false">
+        <item>@color/category_general_primary</item>
+        <item>@color/category_intimacy_primary</item>
+        <item>@color/category_sport_primary</item>
+        <item>@color/category_friendship_primary</item>
+        <item>@color/category_job_primary</item>
+        <item>@color/category_relationship_primary</item>
+        <item>@color/category_forkids_primary</item>
+    </array>
+
+
+    <array name="category_secondary_color"
+        translatable = "false">
+        <item>@color/category_general_secondary</item>
+        <item>@color/category_intimacy_secondary</item>
+        <item>@color/category_sport_secondary</item>
+        <item>@color/category_friendship_secondary</item>
+        <item>@color/category_job_secondary</item>
+        <item>@color/category_relationship_secondary</item>
+        <item>@color/category_forkids_secondary</item>
+    </array>
+</resources>

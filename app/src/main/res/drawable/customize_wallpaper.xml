@@ -1,0 +1,4 @@
+﻿<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/customize_activity_wallpaper"
+    android:tileMode="repeat"
+    android:gravity="clip_horizontal"/>
