@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.littleones.fragenrondell">
+    package="de.badgersburrow.fragenrondell">
 
     <application
         android:allowBackup="true"
@@ -9,11 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Activity_Main"
+            android:name="de.badgersburrow.fragenrondell.Activity_Main"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="landscape"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/FullscreenTheme"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +23,7 @@
         </activity>
 
         <activity
-            android:name=".Activity_CategorySelect"
+            android:name="de.badgersburrow.fragenrondell.Activity_CategorySelect"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/category"
             android:screenOrientation="landscape"
@@ -30,7 +31,7 @@
         </activity>
 
         <activity
-            android:name=".Activity_Mode_FreePlay"
+            android:name="de.badgersburrow.fragenrondell.Activity_Mode_FreePlay"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/cardview"
             android:screenOrientation="landscape"
@@ -38,7 +39,7 @@
         </activity>
 
         <activity
-            android:name=".Activity_Mode_WheelSelect"
+            android:name="de.badgersburrow.fragenrondell.Activity_Mode_WheelSelect"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/cardview"
             android:screenOrientation="landscape"
@@ -46,7 +47,7 @@
         </activity>
 
         <activity
-            android:name=".Activity_Shop"
+            android:name="de.badgersburrow.fragenrondell.Activity_Shop"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/shop"
             android:screenOrientation="landscape"
@@ -54,7 +55,7 @@
         </activity>
 
         <activity
-            android:name=".Activity_Settings"
+            android:name="de.badgersburrow.fragenrondell.Activity_Settings"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/settings"
             android:screenOrientation="landscape"
@@ -62,7 +63,7 @@
         </activity>
 
         <activity
-            android:name=".Activity_Info"
+            android:name="de.badgersburrow.fragenrondell.Activity_Info"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/info"
             android:screenOrientation="landscape"

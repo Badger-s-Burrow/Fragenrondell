@@ -10,7 +10,7 @@
         android:background="@drawable/customize_wallpaper"/>
 
 
-    <com.littleones.fragenrondell.ScalingRelativeLayout
+    <de.badgersburrow.fragenrondell.ScalingRelativeLayout
         android:id="@+id/rl_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,7 +24,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"/>
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="110dp"
             android:layout_height="match_parent"
             android:id="@+id/rv_backgrounds"
@@ -110,7 +110,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
-    </com.littleones.fragenrondell.ScalingRelativeLayout>
+    </de.badgersburrow.fragenrondell.ScalingRelativeLayout>
 
 
 </FrameLayout>

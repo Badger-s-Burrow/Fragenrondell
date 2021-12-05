@@ -6,7 +6,7 @@
 
 
 
-    <com.littleones.fragenrondell.custom_views.SelectionWheel
+    <de.badgersburrow.fragenrondell.custom_views.SelectionWheel
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         custom:pointerRadius="4dp"
